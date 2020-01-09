@@ -1,6 +1,6 @@
 <?php
 
-namespace Devdojo\Calculator;
+namespace Devd\Calculator;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
