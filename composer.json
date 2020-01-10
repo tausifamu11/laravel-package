@@ -8,5 +8,18 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "devd\\calculator\\CalculatorServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Devd\\Calculator\\": "src/"
+        }
+    }
 }
+
