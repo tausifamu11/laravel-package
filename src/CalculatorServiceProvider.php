@@ -15,6 +15,9 @@ class CalculatorServiceProvider extends ServiceProvider
     {
         // register our controller
         $this->app->make('Devd\Calculator\CalculatorController');
+        $this->app->bind('websanova-calculator', function() {
+            return new Demo;
+        });
     }
 
     /**
